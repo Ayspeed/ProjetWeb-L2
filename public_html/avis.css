@@ -1,0 +1,44 @@
+body {
+	background-color: #ffe6ca;
+	padding : 0;
+	margin : 0;
+	margin-left : 60px;
+	margin-top : 60px;
+	padding-bottom : 50px;
+	font-size : 14px;
+	width : 800px;
+	font-family : verdana;
+}
+
+p, h1 {
+	padding : 0;
+	margin : 0;
+}
+
+form {
+	margin-bottom: 50px;
+}
+
+.fil ,.fil a, .fil a:visited {
+	color : #A4A5CB;
+	font-size : 12px;
+	margin-bottom: 30px;
+	border-bottom : solid 1px #D1D1E4;
+}
+
+.fil a {
+	text-decoration : none;
+}
+
+.fil a:hover {
+	color : black;
+}
+
+.date {
+	color : #A4A5CB;
+	font-size : 12px;
+}
+
+input, select, textarea {
+	background-color: whitesmoke;
+	}

@@ -1,0 +1,67 @@
+body {
+	background-color: whitesmoke;
+	margin: auto;
+	margin-top : 60px;
+	padding-bottom : 50px;	
+	font-size : 16px;
+	width : 800px;
+	font-family : verdana;
+}
+
+h1 {
+	font-size : 40px;
+	color: #8a0;
+	text-align: center;
+	padding-bottom : 30px;
+	border-bottom : solid 8px #D1D1E4;
+}
+
+p {
+	padding : 0;
+	margin : 0;
+}
+
+.fil, .date, .legende, .fil a, .fil a:visited {
+	color : #A4A5CB;
+	font-size : 12px;
+}
+
+#page {
+	margin-left : 120px;
+	width : 510px;
+}
+
+.fil a {
+	text-decoration : none;
+}
+
+.fil a:hover {
+	color : black;
+}
+
+.fil {
+	border-bottom : solid 1px #D1D1E4;
+}
+
+.date {
+	border-bottom : solid 2px #D1D1E4;
+}
+
+.texte {
+	margin : 5px 0;
+	text-align: justify;
+}
+	
+.texte a {
+	color : grey;
+	text-decoration : none;
+}
+	
+.texte a:hover {
+	color : red;
+}
+
+.legende {
+	font-style : italic;
+	margin-bottom : 20px;
+}

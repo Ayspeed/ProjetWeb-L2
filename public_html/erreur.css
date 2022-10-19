@@ -1,0 +1,36 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+#erreur {
+  position: relative;
+  height: 100px;
+}
+
+.erreur {
+  max-width: 520px;
+  width: 100%;
+  line-height: 1.4;
+}
+
+.erreur .erreur-404 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 150px;
+  width: 200px;
+}
+
+.erreur .erreur-404 h1 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 238px;
+  font-weight: 700px;
+  margin: 0px;
+  color: #e3e3e3;
+  text-transform: uppercase;
+  letter-spacing: 7px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+}

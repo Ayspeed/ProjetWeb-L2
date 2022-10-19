@@ -1,0 +1,107 @@
+		body {
+			background-color: #fae6cf;
+			padding : 0;
+			margin : 0;
+			margin-left : 60px;
+			margin-top : 60px;
+			padding-bottom : 50px;
+			font-size : 14px;
+			width : 800px;
+			font-family : verdana;
+		}
+
+		ul {
+			margin-top: 100px;
+		}
+
+		p, h1 {
+			padding : 0;
+			margin : 0;
+		}
+		
+		.fil, .fil a, .fil a:visited {
+			color : #A4A5CB;
+			font-size : 12px;
+		}		
+
+		ul img {
+			width : 40px;
+		}
+		
+		ul {
+			list-style-type : none;
+			float : left;
+			margin-top : 14px;
+		}
+		
+		#page {
+			margin-left : 120px;
+			width : 510px;
+		}
+		
+		.fil a {
+			text-decoration : none;
+		}
+		
+		.fil a:hover {
+			color : black;
+		}
+		
+		h1 {
+			font-size : 40px;
+			margin : 40px 0 20px 0;
+			padding-bottom : 30px;
+		}
+		
+		.fil {
+			border-bottom : solid 1px #D1D1E4;
+		}
+		.date {
+			border-bottom : solid 2px #D1D1E4;
+		}
+		h1 {
+			border-bottom : solid 8px #D1D1E4;
+		}
+		
+		.texte {
+			margin : 5px 0;
+			text-align: justify;
+		}
+		
+		.legende {
+			font-style : italic;
+			margin-bottom : 20px;
+		}
+		
+		.texte a {
+			color : grey;
+			text-decoration : none;
+		}
+		
+		.texte a:hover {
+			color : red;
+		}
+		
+		#page img {
+			width : 510px;
+			background-color: #ffe6ca;
+		}
+
+/* spécifique formulaire */
+
+form {
+	margin-top : 30px;
+	padding-top : 0;
+}
+
+.item {
+	margin-top : 20px;
+}
+
+button {
+	color : white ;
+	font-weight: bold;
+	font-size: 16px;
+	background-color : #D23122;
+	padding : 5px;
+}

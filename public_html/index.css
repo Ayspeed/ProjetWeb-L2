@@ -1,0 +1,84 @@
+/* CSS de l'index */
+
+body {
+  background-color: #fae6cf;
+  padding: 0;
+  margin: 0;
+}
+
+fieldset {
+	position: relative;
+	padding : 0;
+	margin : 0;
+	margin-left : 60px;
+	margin-top : 60px;
+	padding-bottom : 30px;
+	font-size : 15px;
+	width : 800px;
+	font-family : Verdana;
+}
+
+.accueil_conteneur1 {
+  width: 100%;
+  height: 400px;
+  background: url(https://g7y6h3a7.rocketcdn.me/wp-content/uploads/2019/08/Visiter-Sydney-Australie.jpg) no-repeat left;
+  overflow: hidden;
+}
+
+.accueil_conteneur1 h1 {
+  font-family: Verdana;
+  width: 1000px;
+  padding-left: 30px;
+  color: black;
+  position: absolute;
+  z-index: 1;
+}
+
+.accueil_conteneur1_deco {
+  width: 700px;
+  height: 900px;
+  float: right;
+  background-color: #cdc733;
+  transform: rotate(30deg) translateY(-250px);
+}
+
+.accueil_bouton_reservation {
+	position: relative;
+	right: calc(-100% + 300px);
+	top: 200px;
+	cursor: pointer;
+	text-decoration: none;
+	font-size: 20px;
+	font-family: 'Roboto', sans-serif;
+	color: white;
+	background-color: #966c3b;
+	padding: 16px;
+	border: solid 2px #966c3b;
+	transition: ease 0.5s;
+}
+
+.accueil_bouton_reservation:hover {
+	background-color: rgba(0, 0, 0, 0)
+}
+
+.bouton_reservation {
+	position: absolute;
+	right: 0;
+	cursor: pointer;
+	text-decoration: none;
+	font-size: 20px;
+	font-family: 'Roboto', sans-serif;
+	color: white;
+	background-color: #966c3b;
+	padding: 6px;
+	border: solid 2px #966c3b;
+	transition: ease 2s;
+}
+.bouton_reservation:hover
+{
+	background-color: rgba(0, 0, 0, 0);
+}
+
+.espacement {
+	border-spacing: 10px;
+}

@@ -1,0 +1,55 @@
+body {
+	background-color: #fae6cf;
+	font-family: verdana;
+	font-size: 20px;
+}
+
+fieldset {
+	position: relative;
+	margin-left : auto;
+	margin-right: auto;
+	margin-top : 60px;
+	padding-bottom : 30px;
+	text-align: center;
+	font-size : 15px;
+	width : 800px;
+	font-family : Verdana;
+}
+
+legend {
+	display: block;
+	width: 200px;
+	margin: auto;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+legend, th {
+	font-family: arial;	
+}
+
+table {
+  	width: 100%;
+}
+
+.bouton_reservation {
+	cursor: pointer;
+	text-decoration: none;
+	width: 20%;
+	display: block;
+	margin-top: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 20px;
+	border-radius: 5px;
+	font-family: 'Roboto', sans-serif;
+	color: white;
+	background-color: #966c3b;
+	padding: 16px;
+	border: solid 2px #966c3b;
+	transition: ease 0.5s;
+}
+
+.bouton_reservation:hover {
+	background-color: rgba(0, 0, 0, 0);
+}
